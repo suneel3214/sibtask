@@ -19,11 +19,12 @@
 
     </style>
 </head>
-<body>
+<body onload="myFunction()">
+  <div id="loading"></div>>
 
 <!-- header start -->
 <section>
-	<div class="container-fluid">
+	<div class="container-fluid fixed-top">
 		<div class="row" style="background-color: #262626">
 			<div class="col-md-6">
 				<p class="logo">envato <span class="logo1"> market </span></p>
@@ -36,14 +37,14 @@
 </section>
 <!-- header end -->
 
-<section style="background-color: #212d3a">
-	<div class="container">
+<section>
+	<div class="fixed-top fix2" style="background-color: #212d3a">
     	<div class="row">
 		    <div class="col-md-6">
 			   <img src="img/logo2.png" class="logo2">
 		    </div><!-- col-md-6-end -->
 		    <div class="col-md-6">
-		    	<i class="fa fa-phone a" aria-hidden="true">1-800-000-111</i>
+		    	<i class="fa fa-phone a" aria-hidden="true" style="margin-top: 50px">1-800-000-111</i>
 		    	<i class="fa fa-envelope a" aria-hidden="true">contact@ex.com</i>
 		    </div>
 	    </div><!-- row end -->
@@ -54,7 +55,7 @@
 <section style="background: #212d3a;">
 	<div class="container text-left">
 		<div class="drop-down">
-			<nav class="navbar navbar-expand-md navbar-light ">
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top fix3 ">
 		
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#a">
 		<i class="fa fa-bars" style="color: #fff"></i>
@@ -204,11 +205,10 @@
 </section>
 <!-- nav-bar end -->
 
-<img src="img/client-1.jpg" width="100%" 
-height="300px">
+
  
 <!-- Our firm recovered start -->
-<section>
+<section style="margin-top: 185px">
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-md-12">
@@ -510,6 +510,45 @@ height="300px">
 </section>
 <!-- latest news end	 -->
 
+<!-- slider start -->
+<section>
+	<div class="carousel slide" data-ride="carousel" id="myslide">
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-interval="2000">
+				<img src="img/slider-1.jpg" alt="first-slide" width="100%" height="400px">
+			</div><!-- carousel-item end -->
+
+			<div class="carousel-item" data-interval="2000">
+				<img src="img/slider-2.jpg" alt="first-slide" width="100%" height="400px">
+			</div><!-- carousel-item end -->
+		</div><!-- carousel-inne end -->
+		<ul class="carousel-indicators">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1" class=""></li>  
+        </ul>
+
+        <a href="#myslide" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myslide" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+	</div><!-- carousel slide end -->
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p style="font-size: 40px;margin-top: -320px;color: #fff;font-weight: bold;font-family: 'Potta One', cursive;">WE PROVIDE LEGAL<br> HELP FOR</p>			    
+				<p style="font-size: 30px;color: #fff">work injury</p>
+				<a href="" class="btn btn-outline-success" style="margin-top: 14px">Buy Now</a>
+			</div><!-- col-md-12 end -->	
+		</div><!-- row of end -->		
+	</div><!-- container of end -->
+</section>
+</section>
+<!-- slider end -->
+
 <!-- legal services start -->
 <section style="background-image: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); width: 100%; height: 415px;margin-top: 100px">
 	<div class="container text-center">
@@ -524,7 +563,50 @@ height="300px">
 	</div><!-- conatianer end -->
 </section>
 <!-- legal services end -->
+<!-- contact us start -->
+<section style="margin-top: 50px">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h6 style="color: #ff6666">Contact Us</h6><hr class="hr3">
+        <h1>Free Case Evaluation</h1>
+        <p style="text-align: justify;">Aenean facilisis, neque a varius porttitor, risus dui tempus libero, dictum aliquet justo enim vitae lorem. Aliquam lacinia lacinia mi ac convallis. Nulla et lacus et risus laoreet consectetur.</p>
+        <i class="fa fa-map-marker icon2" aria-hidden="true">  <p style="color: black;font-weight: 200;font-size: 20px"> OFFICE </p><span class="contact"> 40 Park Ave, Brooklyn, New York</span></i><br>
+        <i class="fa fa-phone icon2" aria-hidden="true"><p style="color: black;font-weight: 200;font-size: 20px">  PHONE </p><span class="contact"> 1-800-000-111</span></i><br>
+        <i class="fa fa-envelope icon2" aria-hidden="true"><p style="color: black;font-weight: 200;font-size: 20px">  EMAIL </p><span class="contact"> contact@example.com</span></i>
+        <br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3350463601705!2d75.8915146642772!3d22.752944082062303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302af403406fb%3A0x5b50834b117f8bab!2sVijay%20Nagar%2C%20Indore%2C%20Madhya%20Pradesh%20452010!5e0!3m2!1sen!2sin!4v1611683471952!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div><!-- col-md-6 end -->
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+                   <label>NAME</label>
+                   <input type="text" name="" placeholder="Enter Name" class="form-control form">     
+                </div>
 
+                <div class="form-group">
+                   <label>EMAIL</label>
+                   <input type="text" name="" placeholder="Enter Email" class="form-control form">      
+                </div>
+
+                <div class="form-group">
+                   <label>SUBJECT</label>
+                   <input type="text" name="" placeholder="Enter Subject" class="form-control form">      
+                </div>
+
+                <div class="form-group">
+                   <label>MESSAGE</label>
+                     <textarea class="form-control sms"></textarea>
+              </div>
+
+              <button type="button" class="btn btn-outline-success" style="margin-top: 30px;height: 50px">Send Message</button>
+        </form>
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/1VUwpI---9M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 69px"></iframe>
+      </div><!-- col-md-6 end -->
+    </div> <!-- row end -->
+  </div><!-- container end -->
+</section><br><br>
+<!-- contact us end -->
 <!-- footer start -->
 <section style="background-color: #212d3a">
 	<div class="container text-center">
@@ -552,5 +634,59 @@ height="300px">
 	</div>
 </section>
 <!-- footer end -->
+
+<!-- update modal start -->
+<section>
+	<div class="modal fade" id="mymodel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-secondary lg">
+              <h5 class="modal-title" style="color: #fff;" >TITLE</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+              </button>
+            </div><!-- modal-header end -->
+          <div class="modal-body">
+            <h3 style="color: black"> LATEST UPDATES</h3>
+            <ul>
+               <li><a style="color: black" href="http://www.rjit.ac.in/regform.html" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-2179" src="http://www.gifandgif.eu/animated_gif/New/Animated%20Gif%20New%20%2826%29.gif" alt="" width="30" height="15">REGISTRATION FOR ADMISSION IN M.TECH. COURSES (SESSION 2020-21)<br>
+               </a></li>
+               <li><a style="color: black;" href="http://www.rjit.ac.in/regform.html" target="_blank" rel="noopener noreferrer"><img class="alignnone size-full wp-image-2179" src="http://www.gifandgif.eu/animated_gif/New/Animated%20Gif%20New%20%2826%29.gif" alt="" width="30" height="15">REGISTRATION FOR ADMISSION LAST DATE IN B.TECH. COURSES 26/01/2021<br>
+               </a></li>
+            </ul>
+          </div> <!-- mdal body end -->
+        </div><!-- modal content end  -->    
+    </div><!--  modal dialog end -->
+</div><!-- modal fade end -->
+</section>
+<!-- update modal end -->
+
+<a href="#" class="to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+<script>
+   
+$(document).ready(function(){
+		$('#mymodel').modal('show');
+	});
+//update modal end
+   var preloader=document.getElementById('loading');
+
+  function myFunction(){
+    preloader.style.display= 'none';
+  }
+
+
+  const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
+</script>
 </body>
 </html>
